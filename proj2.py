@@ -15,7 +15,11 @@ def integral(a, b, h):
 
 for i in range(1,8):
     h = float(0.1 ** i)
+<<<<<<< HEAD
     print('\nДлина отрезка', round(h, 8))
+=======
+    print('\nРасстояние между узлами (сетками)', round(h, 8))
+>>>>>>> origin/main
     print('Приближенный интеграл', integral(a, b, h))
     print('Интеграл для f(x) = exp(x)   ->     F(x) = exp(x): ', integrall(a, b))
     print('Погрешность: ', abs(integral(a, b, h)-integrall(a, b)))
