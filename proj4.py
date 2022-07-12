@@ -1,4 +1,3 @@
-from math import *
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mplt
@@ -41,3 +40,4 @@ y = secondfun(Para[0], x)
 plt.plot(x, y, "r-", label="Решающая кривая метода наименьших квадратов", linewidth=1)
 plt.legend()  # Вывод легенду
 plt.show()
+
