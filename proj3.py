@@ -18,7 +18,7 @@ def runge(epsilon, func, h, x):
     dif2 = (func(x + h2) - func(x - h2)) / (2 * h)
     differential = abs(dif1 - dif2)
     err = differential / 3
-    print("ошибка = %.20f" % (err))
+    print("первая ошибка = %.20f" % (err))
     while err > epsilon:
         h1 = h2
         h2 = h1 / 2
